@@ -185,3 +185,4 @@ async def proxy_get(feishu_path: str, request: Request, authorization: Optional[
         )
 
     return JSONResponse(status_code=resp.status_code, content=resp.json())
+
